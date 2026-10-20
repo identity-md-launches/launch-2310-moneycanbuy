@@ -1,0 +1,22 @@
+# Foundry build output
+out/
+cache/
+broadcast/
+
+# Local scratch space; never submitted
+test/scratch/
+
+# Machine-local shell and editor files that are not part of the project
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig
+.ripgreprc
+.idea
+.vscode
+.mcp.json
+.claude/
+.imd/
+.gitmodules
