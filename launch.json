@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "YoloToken",
+    "name": "moneycanbuy",
+    "symbol": "YOLO",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":6000,"initialMarketCapWei":"2500000000000000000000","remainderTo":"0xee2aaa315cf7ed169f93148d30d24af9318dbb66"},
+  "notes": "YoloToken is moneycanbuy (YOLO), an ERC-20 with 18 decimals. Its argument-free constructor mints all 1,000,000,000 tokens once to msg.sender, the launch factory. There is no later minting, owner, transfer fee, pause, blacklist or upgrade mechanism. Holders may burn their own tokens, and approved spenders may burn tokens within their allowance, reducing supply. No application contracts or initialization calls are required. The pool pairs with IMD at a 1.25% fee. pool.initialPrice records provenance only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply."
+}
